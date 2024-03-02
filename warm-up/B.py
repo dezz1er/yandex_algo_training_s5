@@ -1,12 +1,11 @@
-# https://contest.yandex.ru/contest/59539/problems/B/
 def main():
 
-    g1, g2 = map(int, input().split(':')) 
-    cur_1, cur_2 = map(int, input().split(':')) 
+    g1, g2 = map(int, input().split(':'))
+    cur_1, cur_2 = map(int, input().split(':'))
 
     home = int(input())
     is_g1_guest = 0
-    guest_goals1, guest_goals2 = 0, 0  
+    guest_goals1, guest_goals2 = 0, 0
 
     if home == 1:
         guest_goals2 += g2
